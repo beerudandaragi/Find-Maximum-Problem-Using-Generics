@@ -1,14 +1,13 @@
 ﻿using System;
 
-namespace WithoutGenericsMaxOfThreeIntegers
+namespace MaxOfThreeFloats
 {
     class Program
     {
         static void Main(string[] args)
         {
-            MaxOfThree obj1 = new MaxOfThree();
-            obj1.ReturnMax(25, 56, 11);
+            MaxFloats obj1 = new MaxFloats();
+            obj1.ReturnMax(20.4, 56.5, 70.5);
         }
     }
 }
-

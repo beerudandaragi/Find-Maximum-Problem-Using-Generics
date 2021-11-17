@@ -2,11 +2,12 @@
 using System.Collections.Generic;
 using System.Text;
 
-namespace WithoutGenericsMaxOfThreeIntegers
+namespace MaxOfThreeFloats
 {
-    public class MaxOfThree
+    public class MaxFloats
     {
-        public void ReturnMax(int v1, int v2, int v3)
+
+        public void ReturnMax(double v1, double v2, double v3)
         {
             if (v1.CompareTo(v2) > 0 && v1.CompareTo(v3) > 0 || v1.CompareTo(v2) >= 0 && v1.CompareTo(v3) > 0 || v1.CompareTo(v2) > 0 && v1.CompareTo(v3) >= 0)
             {
@@ -20,7 +21,8 @@ namespace WithoutGenericsMaxOfThreeIntegers
             {
                 Console.WriteLine(v3 + " is greter than " + v2 + " " + v1);
             }
-            Console.ReadKey();
+            Console.ReadLine();
         }
+
     }
 }
