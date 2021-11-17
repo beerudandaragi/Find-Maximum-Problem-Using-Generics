@@ -1,19 +1,14 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
-namespace FindMaximumProblemUsingGenerics
+namespace WithoutGenericsMaxOfThreeIntegers
 {
     class Program
     {
         static void Main(string[] args)
-
         {
-          
-            Console.WriteLine("Find Maximum ProblemUsing Generics");
-            Console.ReadLine();
+            MaxOfThree obj1 = new MaxOfThree();
+            obj1.ReturnMax(25, 56, 11);
         }
     }
 }
+
