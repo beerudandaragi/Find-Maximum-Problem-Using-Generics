@@ -1,13 +1,15 @@
 ﻿using System;
 
-namespace MaxOfThreeStrings
+public class Program
 {
-    class Program
+    public static void Main()
     {
-        static void Main(string[] args)
-        {
-            MaxStrings obj1 = new MaxStrings();
-            obj1.ReturnMax("Beeru", "HCL", "infosoys");
-        }
+        Printer printer = new Printer();
+        printer.Print<int>(100);
+        printer.Print(200); // type infer from the specified value
+        printer.Print<string>("Hello");
+        printer.Print("World!"); // type infer from the specified value
+        Console.ReadLine();
     }
+    
 }
