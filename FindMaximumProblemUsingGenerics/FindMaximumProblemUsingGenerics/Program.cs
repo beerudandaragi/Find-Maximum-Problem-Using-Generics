@@ -7,7 +7,7 @@ namespace MaxOfThreeStrings
         static void Main(string[] args)
         {
             MaxStrings obj1 = new MaxStrings();
-            obj1.ReturnMax("Beeru", "HCL", "Infosoys");
+            obj1.ReturnMax("Beeru", "HCL", "infosoys");
         }
     }
 }
