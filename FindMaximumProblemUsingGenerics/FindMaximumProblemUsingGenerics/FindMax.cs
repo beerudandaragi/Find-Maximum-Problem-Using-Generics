@@ -2,12 +2,11 @@
 using System.Collections.Generic;
 using System.Text;
 
-namespace MaxOfThreeFloats
+namespace MaxOfThreeStrings
 {
-    public class MaxFloats
+    public class MaxStrings
     {
-
-        public void ReturnMax(double v1, double v2, double v3)
+        public void ReturnMax(string v1, string v2, string v3)
         {
             if (v1.CompareTo(v2) > 0 && v1.CompareTo(v3) > 0 || v1.CompareTo(v2) >= 0 && v1.CompareTo(v3) > 0 || v1.CompareTo(v2) > 0 && v1.CompareTo(v3) >= 0)
             {
@@ -23,6 +22,5 @@ namespace MaxOfThreeFloats
             }
             Console.ReadLine();
         }
-
     }
 }
