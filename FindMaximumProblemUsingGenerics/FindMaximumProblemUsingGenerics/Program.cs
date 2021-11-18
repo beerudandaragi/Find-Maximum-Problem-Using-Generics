@@ -1,15 +1,14 @@
-﻿using MaxinumOfMoreThanThreeNumbers;
-using System;
+﻿using System;
 
-namespace MaximumOfMoreThanThreeNumbers
+namespace MaximumGenericThreeVariablesMethod
 {
     class Program
     {
         static void Main(string[] args)
         {
-            MaxNumbers.maxNumbers();
-            Console.ReadKey();
-
+            int[] arr = { 112, 334, 432, 555, 678, 800 };
+            GenericMaximum<int> generic = new GenericMaximum<int>(arr);
+            generic.PrintMaxValue();
         }
     }
 }
