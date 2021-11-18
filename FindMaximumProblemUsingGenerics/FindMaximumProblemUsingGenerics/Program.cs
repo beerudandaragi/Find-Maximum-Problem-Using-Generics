@@ -6,9 +6,9 @@ namespace CSharpProgram
         public GenericClass(T msg)
         {
             Console.WriteLine(msg);
-            Console.ReadLine();
+           // Console.ReadLine();
         }
-     
+
     }
     class Program
     {
@@ -17,6 +17,7 @@ namespace CSharpProgram
             GenericClass<string> gen = new GenericClass<string>("This is generic class");
             GenericClass<int> genI = new GenericClass<int>(101);
             GenericClass<char> getCh = new GenericClass<char>('I');
+            Console.ReadLine();
         }
     }
 }
